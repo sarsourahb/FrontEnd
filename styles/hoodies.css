@@ -3,23 +3,25 @@ section h1 {
     display: flex;
     flex-direction: column; /* Zorgt ervoor dat Dames en Hoodies onder elkaar staan */
     align-items: flex-start; /* Zorgt ervoor dat de tekst links uitgelijnd is */
-    margin: 1;
+    margin: 5;
   }
   
-
   section h1 small {
-    font-size: 0.5em;
-    margin-bottom: 0.1em; /* Ruimte tussen Dames en Hoodies */
+    font-size: 0.8rem; /* Kleinere tekstgrootte */
+    color: #555; /* Lichtgrijs voor Dames */
+    margin-bottom: 0.5rem; /* Ruimte tussen Dames en Hoodies */
   }
   
+  /* Stijl voor strong-element (Hoodies) */
   section h1 strong {
-    font-size: 1em;
-    font-weight: bold;
-    color: #333;
+    font-size: 2rem; /* Grotere tekstgrootte */
+    font-weight: bold; /* Vetgedrukt */
+    color: #333; /* Donkergrijs */
   }
-
+  
+  /* Stijl voor het aantal producten (85 producten) */
   section h1 small:last-of-type {
-    color: #aaa;
-    margin-left: 0; /* Ruimte tussen Hoodies en het aantal producten */
+    color: #aaa; /* Lichter grijs voor 85 producten */
+    margin-left: 1rem; /* Ruimte tussen Hoodies en het aantal producten */
   }
   

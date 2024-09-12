@@ -56,8 +56,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
-
+  Beperkingen zijn niet alleen wat je ziet met het blote oog.
+  De 2 gastspreekers hebben aangegeven waar wij op moeten letten. 
+  Opties voor een bericht/email ipv bellen!
+  screenreader moet duidelijk zijn zodat de persoon duidelijk kan navigeren.
 </details>
 
 

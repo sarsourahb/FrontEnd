@@ -15,14 +15,17 @@
 
 <body>
 	<header>
-		<nav aria-label="Hoofdnavigatie">
-			<ul>
-			  <li><a aria-label="Menu">☰</a></li>
-			  <li><a aria-label="Zoeken">🔍</a></li>
-			  <li><a href="#" aria-label="Gymshark logo"><img src="" alt="Gymshark logo"></a></li>
-			  <li><a href="#" aria-label="Account">👤</a></li>
-			  <li><a href="#" aria-label="Winkelmandje">🛒</a></li>
-			</ul>
+		<a href="#">
+			<img src="https://seeklogo.com/images/G/gymshark-logo-3F1E7A14A4-seeklogo.com.png" alt="go home"/>
+		  </a>
+		  <nav>
+			<!-- de button is niet relevant voor screenreaders -->
+			<!-- met aria-hidden="true" 'verstop' je de button voor ze -->
+			<button aria-hidden="true"><img src="/images/hamburger-menu.svg" alt="menu" />
+			</button>
+			
+			<a href="#"><img aria-hidden="true" src="/images/zoekknop.svg" /></a>
+			<a href="#"><img aria-hidden="true" src="/images/winkelmandje.svg" /></a>
 		  </nav>
     
 	</header>
@@ -48,5 +51,3 @@
 		
 
 	  </main>
-
-
