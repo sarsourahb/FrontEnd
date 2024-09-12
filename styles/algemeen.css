@@ -1,0 +1,25 @@
+nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex; /* Zorgt ervoor dat de items naast elkaar staan */
+	justify-content: space-between; /* Ruimte tussen de items */
+	align-items: center; /* Centraal uitlijnen verticaal */
+  }
+  
+  nav li {
+	margin: 0.5em; /* Ruimte tussen de nav items en de top vd pagina */
+  }
+  
+  nav a {
+	text-decoration: none;
+	color: inherit;
+	font-size: 1.5em;
+  }
+
+  nav {
+	border-bottom: 0.1px solid #ddd; /* Streep onder de navigatiebalk */
+	padding-bottom: 10px; /* Ruimte onder de navigatiebalk */
+  }
+
+  

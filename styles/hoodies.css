@@ -1,0 +1,25 @@
+
+section h1 {
+    display: flex;
+    flex-direction: column; /* Zorgt ervoor dat Dames en Hoodies onder elkaar staan */
+    align-items: flex-start; /* Zorgt ervoor dat de tekst links uitgelijnd is */
+    margin: 1;
+  }
+  
+
+  section h1 small {
+    font-size: 0.5em;
+    margin-bottom: 0.1em; /* Ruimte tussen Dames en Hoodies */
+  }
+  
+  section h1 strong {
+    font-size: 1em;
+    font-weight: bold;
+    color: #333;
+  }
+
+  section h1 small:last-of-type {
+    color: #aaa;
+    margin-left: 0; /* Ruimte tussen Hoodies en het aantal producten */
+  }
+  
